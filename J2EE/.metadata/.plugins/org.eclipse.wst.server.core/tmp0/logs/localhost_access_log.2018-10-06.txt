@@ -1,0 +1,17 @@
+127.0.0.1 - - [06/Oct/2018:00:46:19 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:00:47:12 +0530] "GET /restapi/webapi/myactivity/1234/user HTTP/1.1" 200 117
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:00:47:13 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [06/Oct/2018:18:58:26 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:19:18:51 +0530] "POST /restapi/webapi/myactivity/activity HTTP/1.1" 500 4243
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:19:20:15 +0530] "POST /restapi/webapi/myactivity/activity HTTP/1.1" 500 4243
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:19:36:11 +0530] "POST /restapi/webapi/myactivity/activity HTTP/1.1" 500 4243
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:19:40:43 +0530] "POST /restapi/webapi/myactivity/activity HTTP/1.1" 204 -
+127.0.0.1 - - [06/Oct/2018:19:44:13 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:19:44:41 +0530] "POST /restapi/webapi/myactivity/activity HTTP/1.1" 200 14
+127.0.0.1 - - [06/Oct/2018:20:05:53 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:20:34:33 +0530] "POST /restapi/webapi/myactivity/activity HTTP/1.1" 200 40
+127.0.0.1 - - [06/Oct/2018:23:11:48 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [06/Oct/2018:23:12:00 +0530] "GET /restapi/webapi/activities/1234 HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:23:12:58 +0530] "GET /restapi/webapi/myactivity/1234 HTTP/1.1" 200 223
+0:0:0:0:0:0:0:1 - - [06/Oct/2018:23:12:58 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [06/Oct/2018:23:13:28 +0530] "GET /restapi/webapi/myactivity/1234 HTTP/1.1" 200 104

@@ -1,0 +1,24 @@
+package subratlearning.model;
+
+public class Activity {
+	private String description;
+	private int duration;
+	
+	public void SetDescription(String desc)
+	{
+		this.description=desc;
+	}
+	public String GetDescription()
+	{
+		return this.description;
+	}
+	public void SetDuration(int dur)
+	{
+		this.duration=dur;
+	}
+	public int GetDuration()
+	{
+		return this.duration;
+	}
+
+}

@@ -1,0 +1,36 @@
+package subratlearning.model;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Activity{
+	
+	public String description;
+	public int duration;
+	private String activityId;
+	
+	public String getActivityId() {
+		return activityId;
+	}
+	public void setActivityId(String activityId) {
+		this.activityId = activityId;
+	}
+	public void setDescription(String desc)
+	{
+		this.description=desc;
+	}
+	public String getDescription()
+	{
+		return this.description;
+	}
+	public void setDuration(int dur)
+	{
+		this.duration=dur;
+	}
+	public int getDuration()
+	{
+		return this.duration;
+	}
+
+}

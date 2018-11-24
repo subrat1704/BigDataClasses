@@ -1,0 +1,28 @@
+package subratlearning.repositiry;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import subratlearning.model.Activity;
+
+public class ActivityResourceStub implements IActivityRepository {
+/* (non-Javadoc)
+ * @see subratlearning.repositiry.IActivityRepository#GetAllActivities()
+ */
+
+public List<Activity> GetAllActivities()
+{
+	List<Activity> activities = new ArrayList<Activity>();
+	
+	Activity activity1=new Activity();
+	activity1.SetDescription("Cycling");
+	activity1.SetDuration(55);
+	activities.add(activity1);
+	
+	Activity activity2=new Activity();
+	activity2.SetDescription("swimming");
+	activity2.SetDuration(20);
+	activities.add(activity2);
+	return activities;
+}
+}

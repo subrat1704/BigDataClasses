@@ -1,0 +1,7 @@
+127.0.0.1 - - [09/Sep/2018:19:28:28 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [09/Sep/2018:19:28:29 +0530] "GET /JavaAPI/WEB-INF/classes/TestPkg/Hello.java HTTP/1.1" 404 1047
+127.0.0.1 - - [09/Sep/2018:19:35:43 +0530] "GET /JavaAPI/rest/hello HTTP/1.1" 404 1078
+127.0.0.1 - - [09/Sep/2018:19:35:56 +0530] "GET /JavaAPI/rest/Hello HTTP/1.1" 404 1078
+127.0.0.1 - - [09/Sep/2018:19:35:58 +0530] "GET /JavaAPI/rest/Hello HTTP/1.1" 404 1078
+127.0.0.1 - - [09/Sep/2018:19:35:58 +0530] "GET /JavaAPI/rest/Hello HTTP/1.1" 404 1078
+127.0.0.1 - - [09/Sep/2018:19:35:59 +0530] "GET /JavaAPI/rest/Hello HTTP/1.1" 404 1078
